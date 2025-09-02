@@ -1,0 +1,37 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+*.tar.gz
+*.whl
