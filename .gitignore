@@ -1,37 +1,44 @@
-# OS-specific files
-.DS_Store
-Thumbs.db
-
 # Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.egg
+*.pkl
+*.db
+*.sqlite3
 *.egg-info/
-*.manifest
-*.spec
+*.egg
 
-# Virtual environments
-.env
+# Environments
 .venv/
-env/
 venv/
+env/
+ENV/
+*.env
+*.toml
+secrets.toml
 
-# IDE / Editors
+# Streamlit
+.streamlit/
+logs/
+
+# Data & cache
+data/*.csv
+data/*.parquet
+data/*.db
+*.duckdb
+*.sqlite
+*.log
+
+# Jupyter & notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode / IDEs
 .vscode/
 .idea/
 *.swp
-
-# Logs
-*.log
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Build / Distribution
-build/
-dist/
-*.egg-info/
-*.tar.gz
-*.whl
